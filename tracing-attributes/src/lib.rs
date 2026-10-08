@@ -683,6 +683,7 @@ impl From<ItemFn> for MaybeItemFn {
         ItemFn {
             attrs,
             vis,
+            modifiers: _,
             sig,
             block,
         }: ItemFn,
